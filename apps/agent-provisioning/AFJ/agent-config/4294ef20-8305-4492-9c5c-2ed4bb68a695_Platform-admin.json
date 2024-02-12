@@ -1,0 +1,32 @@
+{
+  "label": "4294ef20-8305-4492-9c5c-2ed4bb68a695_Platform-admin",
+  "walletId": "platform-admin",
+  "walletKey": "U2FsdGVkX19tPmooaKpUhsTkIXT5nRJds7kxdsncU5k=",
+  "walletType": "postgres",
+  "walletUrl": "db.bivetduooqncsxreeizi.supabase.co:5432",
+  "walletAccount": "postgres",
+  "walletPassword": "VDTWTi0KofKD0LZe",
+  "walletAdminAccount": "postgres",
+  "walletAdminPassword": "VDTWTi0KofKD0LZe",
+  "walletScheme": "DatabasePerWallet",
+  "indyLedger": [{"genesisTransactions":"http://test.bcovrin.vonx.io/genesis","indyNamespace":"bcovrin:testnet"},{"genesisTransactions":"https://raw.githubusercontent.com/Indicio-tech/indicio-network/main/genesis_files/pool_transactions_testnet_genesis","indyNamespace":"indicio:testnet"},{"genesisTransactions":"https://raw.githubusercontent.com/Indicio-tech/indicio-network/main/genesis_files/pool_transactions_demonet_genesis","indyNamespace":"indicio:demonet"},{"genesisTransactions":"https://raw.githubusercontent.com/Indicio-tech/indicio-network/main/genesis_files/pool_transactions_mainnet_genesis","indyNamespace":"indicio:mainnet"}],
+  "endpoint": [
+    "http://0.0.0.0:9006"
+  ],
+  "autoAcceptConnections": true,
+  "autoAcceptCredentials": "contentApproved",
+  "autoAcceptProofs": "contentApproved",
+  "logLevel": 5,
+  "inboundTransport": [
+    {
+      "transport": "http",
+      "port": "9006"
+    }
+  ],
+  "outboundTransport": [
+    "http"
+  ],
+  "webhookUrl": "http://localhost:5000/wh/4294ef20-8305-4492-9c5c-2ed4bb68a695",
+  "adminPort": "8006",
+  "tenancy": true
+}
